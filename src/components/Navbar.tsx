@@ -23,7 +23,10 @@ const Navbar: React.FC<NavbarProps> = ({ onSearch }) => {
 
   return (
     <nav className="flex justify-between items-center p-3 bg-zinc-100 text-zinc-500">
-      <div className="text-xl font-bold cursor-pointer hover:text-zinc-700" onClick={() => navigate("/")}>
+      <div
+        className="text-xl font-bold cursor-pointer hover:text-zinc-700"
+        onClick={() => navigate("/")}
+      >
         RentABook
       </div>
 
@@ -41,37 +44,30 @@ const Navbar: React.FC<NavbarProps> = ({ onSearch }) => {
       </div>
 
       <div className="flex items-center relative">
-        <FaUser className="mx-2 cursor-pointer hover:text-zinc-700" onClick={toggleMenu} />
+        <FaUser
+          className="mx-2 cursor-pointer hover:text-zinc-700"
+          onClick={toggleMenu}
+        />
         {showMenu && (
-          <div className="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg">
-            <ul>
-              <li
-                className="px-4 py-2 hover:bg-zinc-200 cursor-pointer"
-                onClick={() => {
-                  navigate("/profile");
-                  setShowMenu(false);
-                }}
-              >
-                Profile Details
-              </li>
-              <li
-                className="px-4 py-2 hover:bg-zinc-200 cursor-pointer"
-                onClick={() => {
-                  navigate("/mybooks");
-                  setShowMenu(false);
-                }}
-              >
-                My Books
-              </li>
-              <li
-                className="px-4 py-2 hover:bg-zinc-200 cursor-pointer"
-                onClick={() => {
-                  // Implement logout functionality here
-                  setShowMenu(false);
-                }}
-              >
-                Logout
-              </li>
+          <div className="absolute top-full right-0 mt-2 w-48 bg-white rounded-md shadow-lg overflow-hidden transform origin-top-right transition-all duration-200 ease-out">
+            <ul className="divide-y divide-gray-100">
+              {[
+                { label: "Profile Details", path: "/profile" },
+                { label: "My Books", path: "/mybooks" },
+                { label: "Logout", path: "/login" },
+              ].map((item, index) => (
+                <li key={index}>
+                  <button
+                    className="w-full text-left px-4 py-3 text-sm text-gray-700 hover:bg-gray-50 transition duration-150 ease-in-out"
+                    onClick={() => {
+                      navigate(item.path);
+                      setShowMenu(false);
+                    }}
+                  >
+                    {item.label}
+                  </button>
+                </li>
+              ))}
             </ul>
           </div>
         )}

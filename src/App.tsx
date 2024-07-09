@@ -4,7 +4,6 @@ import { AuthProvider } from "./context/AuthContext";
 import Login from "./components/Login";
 import Register from "./components/Register";
 import Dashboard from "./components/Dashboard";
-import UserAccount from "./components/UserAccount";
 import Cart from "./components/Cart";
 import BookPage from "./components/BookPage";
 import Navbar from "./components/Navbar";
@@ -36,7 +35,6 @@ const App: React.FC = () => {
               <Route path="/cart" element={<Cart />} />
               <Route path="/profile" element={<Profile />} />
               <Route path="/mybooks" element={<MyBooks />} />
-              <Route path="/account" element={<UserAccount />} />
             </Routes>
           </div>
           <Footer />
