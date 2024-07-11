@@ -104,7 +104,7 @@ const Cart: React.FC = () => {
         {cartItems.length > 0 && (
           <div className="mt-12 bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg rounded-2xl shadow-lg p-8 max-w-2xl mx-auto">
             <p className="text-3xl font-bold text-yellow-400 mb-6">
-              Total: ${totalPrice}
+              Total: ₹{totalPrice}
             </p>
             <button className="w-full bg-green-500 text-white py-4 px-8 rounded-full hover:bg-green-600 transition duration-300 text-xl font-semibold">
               Proceed to Checkout

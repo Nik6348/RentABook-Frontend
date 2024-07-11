@@ -12,13 +12,12 @@ RentABook is an eBook rental platform built with React, TypeScript, Tailwind CSS
 
 ## Demo UI
 
-![Book List](Demo/BookList.png)
-![Book Details](Demo/BookDetails.png)
+![Book List](Demo/Booklist-Demo.png)
+![Book Details](Demo/Book-Demo.png)
+![Cart](Demo/Cart-Demo.png)
 ![Profile](Demo/Profile.png)
-![Cart](Demo/Cart.png)
 ![Header](Demo/Header.png)
 ![Footer](Demo/Footer.png)
-
 
 ## Technologies Used
 

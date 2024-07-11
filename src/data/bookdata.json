@@ -4,9 +4,9 @@
     "title": "Rich Dad Poor Dad",
     "author": "Robert Kiyosaki",
     "price": {
-      "week": "$3.99",
-      "month": "$9.99",
-      "lifetime": "$24.99"
+      "week": "₹299",
+      "month": "₹749",
+      "lifetime": "₹1874"
     },
     "description": "A personal finance classic about the importance of financial literacy.",
     "cover": "https://images-na.ssl-images-amazon.com/images/I/81bsw6fnUiL.jpg"
@@ -16,9 +16,9 @@
     "title": "To Kill a Mockingbird",
     "author": "Harper Lee",
     "price": {
-      "week": "$2.99",
-      "month": "$7.99",
-      "lifetime": "$19.99"
+      "week": "₹224",
+      "month": "₹599",
+      "lifetime": "₹1499"
     },
     "description": "A powerful story of racial injustice and loss of innocence in the American South.",
     "cover": "https://upload.wikimedia.org/wikipedia/commons/4/4f/To_Kill_a_Mockingbird_%28first_edition_cover%29.jpg"
@@ -28,9 +28,9 @@
     "title": "1984",
     "author": "George Orwell",
     "price": {
-      "week": "$2.99",
-      "month": "$8.99",
-      "lifetime": "$21.99"
+      "week": "₹224",
+      "month": "₹674",
+      "lifetime": "₹1649"
     },
     "description": "A dystopian novel set in a totalitarian society, exploring themes of surveillance and control.",
     "cover": "https://images-na.ssl-images-amazon.com/images/I/71kxa1-0mfL.jpg"
@@ -40,9 +40,9 @@
     "title": "The Great Gatsby",
     "author": "F. Scott Fitzgerald",
     "price": {
-      "week": "$2.99",
-      "month": "$7.99",
-      "lifetime": "$19.99"
+      "week": "₹224",
+      "month": "₹599",
+      "lifetime": "₹1499"
     },
     "description": "A classic novel depicting the decadence and excess of the Roaring Twenties in America.",
     "cover": "https://upload.wikimedia.org/wikipedia/commons/7/7a/The_Great_Gatsby_Cover_1925_Retouched.jpg"
@@ -52,9 +52,9 @@
     "title": "The Catcher in the Rye",
     "author": "J.D. Salinger",
     "price": {
-      "week": "$2.99",
-      "month": "$7.99",
-      "lifetime": "$19.99"
+      "week": "₹224",
+      "month": "₹599",
+      "lifetime": "₹1499"
     },
     "description": "A classic coming-of-age story following the experiences of a teenage boy in New York City.",
     "cover": "https://upload.wikimedia.org/wikipedia/commons/8/89/The_Catcher_in_the_Rye_%281951%2C_first_edition_cover%29.jpg"
@@ -64,9 +64,9 @@
     "title": "The Alchemist",
     "author": "Paulo Coelho",
     "price": {
-      "week": "$3.99",
-      "month": "$9.99",
-      "lifetime": "$24.99"
+      "week": "₹299",
+      "month": "₹749",
+      "lifetime": "₹1874"
     },
     "description": "A philosophical novel about a young Andalusian shepherd's journey to find his destiny.",
     "cover": "https://images-na.ssl-images-amazon.com/images/I/71aFt4+OTOL.jpg"
@@ -76,9 +76,9 @@
     "title": "The Hunger Games",
     "author": "Suzanne Collins",
     "price": {
-      "week": "$3.99",
-      "month": "$10.99",
-      "lifetime": "$27.99"
+      "week": "₹299",
+      "month": "₹824",
+      "lifetime": "₹2099"
     },
     "description": "A dystopian novel set in a world where young people are forced to compete in a televised battle to the death.",
     "cover": "https://upload.wikimedia.org/wikipedia/en/d/dc/The_Hunger_Games.jpg"
@@ -88,9 +88,9 @@
     "title": "The Da Vinci Code",
     "author": "Dan Brown",
     "price": {
-      "week": "$3.99",
-      "month": "$10.99",
-      "lifetime": "$27.99"
+      "week": "₹299",
+      "month": "₹824",
+      "lifetime": "₹2099"
     },
     "description": "A thriller novel involving a conspiracy within the Catholic Church and the search for the Holy Grail.",
     "cover": "https://images-na.ssl-images-amazon.com/images/I/91Q5dCjc2KL.jpg"
@@ -100,9 +100,9 @@
     "title": "The Hobbit",
     "author": "J.R.R. Tolkien",
     "price": {
-      "week": "$3.99",
-      "month": "$10.99",
-      "lifetime": "$27.99"
+      "week": "₹299",
+      "month": "₹824",
+      "lifetime": "₹2099"
     },
     "description": "A fantasy novel about the adventures of Bilbo Baggins, a hobbit who is recruited to join a quest.",
     "cover": "https://images-na.ssl-images-amazon.com/images/I/91b0C2YNSrL.jpg"
@@ -112,9 +112,9 @@
     "title": "The Girl with the Dragon Tattoo",
     "author": "Stieg Larsson",
     "price": {
-      "week": "$3.99",
-      "month": "$10.99",
-      "lifetime": "$27.99"
+      "week": "₹299",
+      "month": "₹824",
+      "lifetime": "₹2099"
     },
     "description": "A crime novel featuring a complex mystery and the brilliant but troubled hacker Lisbeth Salander.",
     "cover": "https://m.media-amazon.com/images/I/419-jVYhzaL._SY445_SX342_.jpg"
@@ -124,9 +124,9 @@
     "title": "The Fault in Our Stars",
     "author": "John Green",
     "price": {
-      "week": "$2.99",
-      "month": "$8.99",
-      "lifetime": "$22.99"
+      "week": "₹224",
+      "month": "₹674",
+      "lifetime": "₹1724"
     },
     "description": "A young adult novel about two teenagers who fall in love while battling cancer.",
     "cover": "https://images-na.ssl-images-amazon.com/images/I/81yAo5ElQlL.jpg"
@@ -136,9 +136,9 @@
     "title": "The Help",
     "author": "Kathryn Stockett",
     "price": {
-      "week": "$3.99",
-      "month": "$10.99",
-      "lifetime": "$27.99"
+      "week": "₹299",
+      "month": "₹824",
+      "lifetime": "₹2099"
     },
     "description": "A novel set in 1960s Mississippi, exploring the lives of African American maids working in white households.",
     "cover": "https://m.media-amazon.com/images/I/61taK-2tICL._AC_UY218_.jpg"
@@ -148,9 +148,9 @@
     "title": "The Kite Runner",
     "author": "Khaled Hosseini",
     "price": {
-      "week": "$3.99",
-      "month": "$10.99",
-      "lifetime": "$27.99"
+      "week": "₹299",
+      "month": "₹824",
+      "lifetime": "₹2099"
     },
     "description": "A novel about friendship, betrayal, and redemption set against the backdrop of Afghanistan's tumultuous history.",
     "cover": "https://images-na.ssl-images-amazon.com/images/I/81IzbD2IiIL.jpg"
@@ -160,9 +160,9 @@
     "title": "The Girl on the Train",
     "author": "Paula Hawkins",
     "price": {
-      "week": "$3.99",
-      "month": "$10.99",
-      "lifetime": "$27.99"
+      "week": "₹299",
+      "month": "₹824",
+      "lifetime": "₹2099"
     },
     "description": "A psychological thriller about a woman who becomes entangled in a missing person's investigation.",
     "cover": "https://m.media-amazon.com/images/I/71RRMyyQxWL._AC_UY218_.jpg"
@@ -172,9 +172,9 @@
     "title": "The Martian",
     "author": "Andy Weir",
     "price": {
-      "week": "$3.99",
-      "month": "$10.99",
-      "lifetime": "$27.99"
+      "week": "₹299",
+      "month": "₹824",
+      "lifetime": "₹2099"
     },
     "description": "A science fiction novel about an astronaut stranded on Mars and his struggle to survive.",
     "cover": "https://images-na.ssl-images-amazon.com/images/I/91kFYg4fX3L.jpg"
@@ -184,9 +184,9 @@
     "title": "The Curious Incident of the Dog in the Night-Time",
     "author": "Mark Haddon",
     "price": {
-      "week": "$2.99",
-      "month": "$8.99",
-      "lifetime": "$22.99"
+      "week": "₹224",
+      "month": "₹674",
+      "lifetime": "₹1724"
     },
     "description": "A novel narrated by a young man with autism who investigates the death of a neighbor's dog.",
     "cover": "https://m.media-amazon.com/images/I/51-CY8Jam-L._AC_UY218_.jpg"
@@ -196,9 +196,9 @@
     "title": "The Giver",
     "author": "Lois Lowry",
     "price": {
-      "week": "$2.99",
-      "month": "$7.99",
-      "lifetime": "$19.99"
+      "week": "₹224",
+      "month": "₹599",
+      "lifetime": "₹1499"
     },
     "description": "A young adult dystopian novel about a boy living in a seemingly perfect society who is chosen to become the Receiver of Memory.",
     "cover": "https://m.media-amazon.com/images/I/819XiIZg59L._AC_UY218_.jpg"
@@ -208,9 +208,9 @@
     "title": "The Book Thief",
     "author": "Markus Zusak",
     "price": {
-      "week": "$3.99",
-      "month": "$10.99",
-      "lifetime": "$27.99"
+      "week": "₹299",
+      "month": "₹824",
+      "lifetime": "₹2099"
     },
     "description": "A novel set in a bustling city where a woman is pursued by a seemingly perfect book thief who also has a secret past.",
     "cover": "https://m.media-amazon.com/images/I/914cHl9v7oL._AC_UY218_.jpg"
@@ -220,9 +220,9 @@
     "title": "The Night Circus",
     "author": "Kate Winslet",
     "price": {
-      "week": "$3.99",
-      "month": "$10.99",
-      "lifetime": "$27.99"
+      "week": "₹299",
+      "month": "₹824",
+      "lifetime": "₹2099"
     },
     "description": "A psychological thriller about a woman who is haunted by a series of recurring nightmares.",
     "cover": "https://m.media-amazon.com/images/I/710TOUsAW1L._AC_UY218_.jpg"
@@ -232,9 +232,9 @@
     "title": "The Catcher in the Rye",
     "author": "J.D. Salinger",
     "price": {
-      "week": "$2.99",
-      "month": "$8.99",
-      "lifetime": "$22.99"
+      "week": "₹224",
+      "month": "₹674",
+      "lifetime": "₹1724"
     },
     "description": "A classic novel about a young man who is drawn to a mysterious woman who offers him a chance to help solve a series of mysterious disappearances.",
     "cover": "https://m.media-amazon.com/images/I/71nXPGovoTL._AC_UY218_.jpg"
