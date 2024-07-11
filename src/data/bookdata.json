@@ -1,122 +1,123 @@
 [
   {
     "id": 1,
-    "title": "Eulenschrei",
-    "author": "Max Bentow",
+    "title": "Rich Dad Poor Dad",
+    "author": "Robert Kiyosaki",
     "price": {
-      "week": "$2.99",
-      "month": "$6.99",
-      "lifetime": "$19.99"
+      "week": "$3.99",
+      "month": "$9.99",
+      "lifetime": "$24.99"
     },
-    "description": "Eulenschrei ist ein Buch von Friedrich Nietzsche, das die Übermut in der Liebe und die Schwierigkeiten der Kunst immer schwerer machen kann.",
-    "cover": "https://www.ebook.de/_next/image?url=https%3A%2F%2Fmedia2.ebook.de%2Fshop%2Fcoverscans%2F456%2F45606362_9783751723879_xl.jpg&w=384&q=75"
+    "description": "A personal finance classic about the importance of financial literacy.",
+    "cover": "https://images-na.ssl-images-amazon.com/images/I/81bsw6fnUiL.jpg"
   },
   {
     "id": 2,
-    "title": "Der Duft von Olivenbäumen",
-    "author": "Sara Pepe",
-    "price": {
-      "week": "$1.99",
-      "month": "$4.99",
-      "lifetime": "$14.99"
-    },
-    "description": "Eine fesselnde Geschichte über Familie, Liebe und das Leben in einem italienischen Olivenhain.",
-    "cover": "https://media2.ebook.de/shop/coverscans/469/46991450_9783458779766_xl.jpg"
-  },
-  {
-    "id": 3,
-    "title": "Die Familie",
-    "author": "Johannes Heinrich Hoffmann",
-    "price": {
-      "week": "$2.99",
-      "month": "$8.99",
-      "lifetime": "$24.99"
-    },
-    "description": "Ein tiefgründiger Roman über die Komplexität familiärer Beziehungen und generationsübergreifende Konflikte.",
-    "cover": "https://media2.ebook.de/shop/coverscans/469/46991450_9783458779766_xl.jpg"
-  },
-  {
-    "id": 4,
-    "title": "Die Liebe im Falle",
-    "author": "Friedrich Nietzsche",
-    "price": {
-      "week": "$3.99",
-      "month": "$12.99",
-      "lifetime": "$34.99"
-    },
-    "description": "Eine philosophische Abhandlung über die Natur der Liebe und ihre Rolle in der menschlichen Existenz.",
-    "cover": "https://www.ebook.de/_next/image?url=https%3A%2F%2Fmedia2.ebook.de%2Fshop%2Fcoverscans%2F447%2F44747260_9783426467220_xl.jpg&w=384&q=75"
-  },
-  {
-    "id": 5,
-    "title": "The Great Gatsby",
-    "author": "F. Scott Fitzgerald",
-    "price": {
-      "week": "$4.99",
-      "month": "$14.99",
-      "lifetime": "$39.99"
-    },
-    "description": "A classic novel depicting the decadence and excess of the Roaring Twenties in America.",
-    "cover": "https://media2.ebook.de/shop/coverscans/469/46991450_9783458779766_xl.jpg"
-  },
-  {
-    "id": 6,
     "title": "To Kill a Mockingbird",
     "author": "Harper Lee",
     "price": {
-      "week": "$3.99",
-      "month": "$10.99",
-      "lifetime": "$29.99"
+      "week": "$2.99",
+      "month": "$7.99",
+      "lifetime": "$19.99"
     },
-    "description": "A powerful story of racial injustice and the loss of innocence in the American South.",
-    "cover": "https://media2.ebook.de/shop/coverscans/469/46991450_9783458779766_xl.jpg"
+    "description": "A powerful story of racial injustice and loss of innocence in the American South.",
+    "cover": "https://upload.wikimedia.org/wikipedia/commons/4/4f/To_Kill_a_Mockingbird_%28first_edition_cover%29.jpg"
   },
   {
-    "id": 7,
+    "id": 3,
     "title": "1984",
     "author": "George Orwell",
     "price": {
-      "week": "$3.99",
-      "month": "$11.99",
-      "lifetime": "$32.99"
+      "week": "$2.99",
+      "month": "$8.99",
+      "lifetime": "$21.99"
     },
     "description": "A dystopian novel set in a totalitarian society, exploring themes of surveillance and control.",
-    "cover": "https://media2.ebook.de/shop/coverscans/469/46991450_9783458779766_xl.jpg"
+    "cover": "https://images-na.ssl-images-amazon.com/images/I/71kxa1-0mfL.jpg"
   },
   {
-    "id": 8,
+    "id": 4,
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "price": {
+      "week": "$2.99",
+      "month": "$7.99",
+      "lifetime": "$19.99"
+    },
+    "description": "A classic novel depicting the decadence and excess of the Roaring Twenties in America.",
+    "cover": "https://upload.wikimedia.org/wikipedia/commons/7/7a/The_Great_Gatsby_Cover_1925_Retouched.jpg"
+  },
+  {
+    "id": 5,
     "title": "The Catcher in the Rye",
     "author": "J.D. Salinger",
     "price": {
       "week": "$2.99",
       "month": "$7.99",
-      "lifetime": "$21.99"
+      "lifetime": "$19.99"
     },
     "description": "A classic coming-of-age story following the experiences of a teenage boy in New York City.",
-    "cover": "https://media2.ebook.de/shop/coverscans/469/46991450_9783458779766_xl.jpg"
+    "cover": "https://upload.wikimedia.org/wikipedia/commons/8/89/The_Catcher_in_the_Rye_%281951%2C_first_edition_cover%29.jpg"
   },
   {
-    "id": 9,
-    "title": "The Night Circus",
-    "author": "Virginia Woolf",
+    "id": 6,
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "price": {
+      "week": "$3.99",
+      "month": "$9.99",
+      "lifetime": "$24.99"
+    },
+    "description": "A philosophical novel about a young Andalusian shepherd's journey to find his destiny.",
+    "cover": "https://images-na.ssl-images-amazon.com/images/I/71aFt4+OTOL.jpg"
+  },
+  {
+    "id": 7,
+    "title": "The Hunger Games",
+    "author": "Suzanne Collins",
     "price": {
       "week": "$3.99",
       "month": "$10.99",
-      "lifetime": "$29.99"
+      "lifetime": "$27.99"
     },
-    "description": "A magical tale of two young magicians pitted against each other in a mysterious circus.",
-    "cover": "https://media2.ebook.de/shop/coverscans/469/46991450_9783458779766_xl.jpg"
+    "description": "A dystopian novel set in a world where young people are forced to compete in a televised battle to the death.",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/d/dc/The_Hunger_Games.jpg"
+  },
+  {
+    "id": 8,
+    "title": "The Da Vinci Code",
+    "author": "Dan Brown",
+    "price": {
+      "week": "$3.99",
+      "month": "$10.99",
+      "lifetime": "$27.99"
+    },
+    "description": "A thriller novel involving a conspiracy within the Catholic Church and the search for the Holy Grail.",
+    "cover": "https://images-na.ssl-images-amazon.com/images/I/91Q5dCjc2KL.jpg"
+  },
+  {
+    "id": 9,
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "price": {
+      "week": "$3.99",
+      "month": "$10.99",
+      "lifetime": "$27.99"
+    },
+    "description": "A fantasy novel about the adventures of Bilbo Baggins, a hobbit who is recruited to join a quest.",
+    "cover": "https://images-na.ssl-images-amazon.com/images/I/91b0C2YNSrL.jpg"
   },
   {
     "id": 10,
-    "title": "The Grapes of Wrath",
-    "author": "Franz Kafka",
+    "title": "The Girl with the Dragon Tattoo",
+    "author": "Stieg Larsson",
     "price": {
-      "week": "$4.99",
-      "month": "$13.99",
-      "lifetime": "$37.99"
+      "week": "$3.99",
+      "month": "$10.99",
+      "lifetime": "$27.99"
     },
-    "description": "A story of a family's struggle during the Great Depression and their journey to California.",
-    "cover": "https://media2.ebook.de/shop/coverscans/469/46991450_9783458779766_xl.jpg"
+    "description": "A crime novel featuring a complex mystery and the brilliant but troubled hacker Lisbeth Salander.",
+    "cover": "https://m.media-amazon.com/images/I/419-jVYhzaL._SY445_SX342_.jpg"
   }
+
 ]
