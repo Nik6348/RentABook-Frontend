@@ -10,6 +10,14 @@ RentABook is an eBook rental platform built with React, TypeScript, Tailwind CSS
 - Responsive UI using Tailwind CSS
 - State management with React Context API
 
+## Demo UI
+
+![Book List](Demo/BookList.png)
+![Book List 1](Demo/BookList-1.png)
+![Book Details](Demo/BookDetails.png)
+![Profile](Demo/Profile.png)
+![Cart](Demo/Cart.png)
+
 ## Technologies Used
 
 - React
@@ -30,12 +38,10 @@ RentABook is an eBook rental platform built with React, TypeScript, Tailwind CSS
 ```bash
 git clone https://github.com/nik6348/RentABook-Frontend.git
 cd RentABook-Frontend
- ```
-   
+```
+
 2. Install dependencies:
-``` npm install ``` or ```npm i ```
+   `npm install` or `npm i `
 
-
-4. Start the server:
-``` npm run dev ``` or ``` npm start ```
-
+3. Start the server:
+   `npm run dev` or `npm start`
