@@ -118,6 +118,125 @@
     },
     "description": "A crime novel featuring a complex mystery and the brilliant but troubled hacker Lisbeth Salander.",
     "cover": "https://m.media-amazon.com/images/I/419-jVYhzaL._SY445_SX342_.jpg"
+  },
+  {
+    "id": 11,
+    "title": "The Fault in Our Stars",
+    "author": "John Green",
+    "price": {
+      "week": "$2.99",
+      "month": "$8.99",
+      "lifetime": "$22.99"
+    },
+    "description": "A young adult novel about two teenagers who fall in love while battling cancer.",
+    "cover": "https://images-na.ssl-images-amazon.com/images/I/81yAo5ElQlL.jpg"
+  },
+  {
+    "id": 12,
+    "title": "The Help",
+    "author": "Kathryn Stockett",
+    "price": {
+      "week": "$3.99",
+      "month": "$10.99",
+      "lifetime": "$27.99"
+    },
+    "description": "A novel set in 1960s Mississippi, exploring the lives of African American maids working in white households.",
+    "cover": "https://m.media-amazon.com/images/I/61taK-2tICL._AC_UY218_.jpg"
+  },
+  {
+    "id": 13,
+    "title": "The Kite Runner",
+    "author": "Khaled Hosseini",
+    "price": {
+      "week": "$3.99",
+      "month": "$10.99",
+      "lifetime": "$27.99"
+    },
+    "description": "A novel about friendship, betrayal, and redemption set against the backdrop of Afghanistan's tumultuous history.",
+    "cover": "https://images-na.ssl-images-amazon.com/images/I/81IzbD2IiIL.jpg"
+  },
+  {
+    "id": 14,
+    "title": "The Girl on the Train",
+    "author": "Paula Hawkins",
+    "price": {
+      "week": "$3.99",
+      "month": "$10.99",
+      "lifetime": "$27.99"
+    },
+    "description": "A psychological thriller about a woman who becomes entangled in a missing person's investigation.",
+    "cover": "https://m.media-amazon.com/images/I/71RRMyyQxWL._AC_UY218_.jpg"
+  },
+  {
+    "id": 15,
+    "title": "The Martian",
+    "author": "Andy Weir",
+    "price": {
+      "week": "$3.99",
+      "month": "$10.99",
+      "lifetime": "$27.99"
+    },
+    "description": "A science fiction novel about an astronaut stranded on Mars and his struggle to survive.",
+    "cover": "https://images-na.ssl-images-amazon.com/images/I/91kFYg4fX3L.jpg"
+  },
+  {
+    "id": 16,
+    "title": "The Curious Incident of the Dog in the Night-Time",
+    "author": "Mark Haddon",
+    "price": {
+      "week": "$2.99",
+      "month": "$8.99",
+      "lifetime": "$22.99"
+    },
+    "description": "A novel narrated by a young man with autism who investigates the death of a neighbor's dog.",
+    "cover": "https://m.media-amazon.com/images/I/51-CY8Jam-L._AC_UY218_.jpg"
+  },
+  {
+    "id": 17,
+    "title": "The Giver",
+    "author": "Lois Lowry",
+    "price": {
+      "week": "$2.99",
+      "month": "$7.99",
+      "lifetime": "$19.99"
+    },
+    "description": "A young adult dystopian novel about a boy living in a seemingly perfect society who is chosen to become the Receiver of Memory.",
+    "cover": "https://m.media-amazon.com/images/I/819XiIZg59L._AC_UY218_.jpg"
+  },
+  {
+    "id": 18,
+    "title": "The Book Thief",
+    "author": "Markus Zusak",
+    "price": {
+      "week": "$3.99",
+      "month": "$10.99",
+      "lifetime": "$27.99"
+    },
+    "description": "A novel set in a bustling city where a woman is pursued by a seemingly perfect book thief who also has a secret past.",
+    "cover": "https://m.media-amazon.com/images/I/914cHl9v7oL._AC_UY218_.jpg"
+    },
+  {
+    "id": 19,
+    "title": "The Night Circus",
+    "author": "Kate Winslet",
+    "price": {
+      "week": "$3.99",
+      "month": "$10.99",
+      "lifetime": "$27.99"
+    },
+    "description": "A psychological thriller about a woman who is haunted by a series of recurring nightmares.",
+    "cover": "https://m.media-amazon.com/images/I/710TOUsAW1L._AC_UY218_.jpg"
+  },
+  {
+    "id": 20,
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "price": {
+      "week": "$2.99",
+      "month": "$8.99",
+      "lifetime": "$22.99"
+    },
+    "description": "A classic novel about a young man who is drawn to a mysterious woman who offers him a chance to help solve a series of mysterious disappearances.",
+    "cover": "https://m.media-amazon.com/images/I/71nXPGovoTL._AC_UY218_.jpg"
   }
-
 ]
