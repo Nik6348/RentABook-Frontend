@@ -15,8 +15,7 @@ import {
   onAuthStateChanged,
   User,
 } from "firebase/auth";
-import { toast } from "react-toastify";
-import axios from "axios"; // Import axios for making HTTP requests
+import { sendTokenToBackend } from "../api/authApi";
 
 interface AuthContextType {
   currentUser: User | null;
@@ -25,7 +24,7 @@ interface AuthContextType {
   registerWithEmail: (email: string, password: string) => Promise<void>;
   logout: () => Promise<void>;
   loading: boolean;
-  error: string | null; 
+  error: string | null;
 }
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
@@ -51,24 +50,6 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({
   });
   const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<string | null>(null);
-
-  const sendTokenToBackend = async (idToken: string) => {
-    try {
-      const response = await axios.post(
-        "/api/auth",
-        {},
-        {
-          headers: {
-            Authorization: `Bearer ${idToken}`,
-          },
-        }
-      );
-      console.log("User authenticated and stored in DB:", response.data);
-    } catch (err: any) {
-      setError(err.message);
-      toast.error(err.message, { position: "top-center" });
-    }
-  };
 
   const loginWithGoogle = async () => {
     setLoading(true);

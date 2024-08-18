@@ -6,7 +6,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { FaTrash, FaShoppingCart, FaBook } from "react-icons/fa";
 
 interface CartItem {
-  id: number;
+  _id: string;
   cover: string;
   title: string;
   author: string;
@@ -28,8 +28,8 @@ const Cart: React.FC = () => {
     setCartItems(getCartItems());
   }, []);
 
-  const handleRemoveItem = (id: number) => {
-    removeFromCart(id);
+  const handleRemoveItem = (_id: string) => {
+    removeFromCart(_id);
     setCartItems(getCartItems());
     toast.success("Item removed from cart");
   };
@@ -42,6 +42,10 @@ const Cart: React.FC = () => {
       }, 0)
       .toFixed(2);
   }, [cartItems]);
+
+  const handleCheckout = () => {
+    navigate("/checkout");
+  };
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-900  py-12 text-white  text-center">
@@ -60,45 +64,47 @@ const Cart: React.FC = () => {
           </div>
         ) : (
           <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify-items-center">
-          <div className="col-span-full grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify-items-center content-center">        
-            {cartItems.map((item) => (
-              <div
-                key={item.id}
-                className="bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg p-6 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 w-full max-w-sm"
-              >
-                <div className="relative">
-                  <img
-                    src={item.cover}
-                    alt={item.title}
-                    className="w-full h-64 object-contain mb-4 rounded-lg"
-                  />
-                  <div className="absolute top-0 left-0 bg-indigo-600 text-white px-3 py-1 rounded-br-lg">
-                    {durationLabels[item.duration]}
-                  </div>
-                  <h2 className="text-xl font-bold text-white mb-2">
-                    {item.title}
-                  </h2>
-                  <h3 className="text-md text-gray-300 mb-3">{item.author}</h3>
-                  <p className="text-lg text-yellow-300 font-semibold mb-4">
-                    {item.price}
-                  </p>
-                  <div className="flex flex-col gap-3">
-                    <Link to={`/book/${item.id}`} className="w-full">
-                      <button className="w-full bg-indigo-600 text-white py-2 px-4 rounded-full hover:bg-indigo-700 transition duration-300 flex items-center justify-center">
-                        <FaBook className="mr-2" /> View Details
+            <div className="col-span-full grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify-items-center content-center">
+              {cartItems.map((item) => (
+                <div
+                  key={item._id}
+                  className="bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg p-6 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 w-full max-w-sm"
+                >
+                  <div className="relative">
+                    <img
+                      src={item.cover}
+                      alt={item.title}
+                      className="w-full h-64 object-contain mb-4 rounded-lg"
+                    />
+                    <div className="absolute top-0 left-0 bg-indigo-600 text-white px-3 py-1 rounded-br-lg">
+                      {durationLabels[item.duration]}
+                    </div>
+                    <h2 className="text-xl font-bold text-white mb-2">
+                      {item.title}
+                    </h2>
+                    <h3 className="text-md text-gray-300 mb-3">
+                      {item.author}
+                    </h3>
+                    <p className="text-lg text-yellow-300 font-semibold mb-4">
+                      {item.price}
+                    </p>
+                    <div className="flex flex-col gap-3">
+                      <Link to={`/book/${item._id}`} className="w-full">
+                        <button className="w-full bg-indigo-600 text-white py-2 px-4 rounded-full hover:bg-indigo-700 transition duration-300 flex items-center justify-center">
+                          <FaBook className="mr-2" /> View Details
+                        </button>
+                      </Link>
+                      <button
+                        onClick={() => handleRemoveItem(item._id)}
+                        className="w-full bg-red-500 text-white py-2 px-4 rounded-full hover:bg-red-600 transition duration-300 flex items-center justify-center"
+                      >
+                        <FaTrash className="mr-2" /> Remove
                       </button>
-                    </Link>
-                    <button
-                      onClick={() => handleRemoveItem(item.id)}
-                      className="w-full bg-red-500 text-white py-2 px-4 rounded-full hover:bg-red-600 transition duration-300 flex items-center justify-center"
-                    >
-                      <FaTrash className="mr-2" /> Remove
-                    </button>
+                    </div>
                   </div>
                 </div>
-              </div>
-            ))}
-          </div>
+              ))}
+            </div>
           </div>
         )}
         {cartItems.length > 0 && (
@@ -106,7 +112,10 @@ const Cart: React.FC = () => {
             <p className="text-3xl font-bold text-yellow-400 mb-6">
               Total: ₹{totalPrice}
             </p>
-            <button className="w-full bg-green-500 text-white py-4 px-8 rounded-full hover:bg-green-600 transition duration-300 text-xl font-semibold">
+            <button
+              onClick={handleCheckout}
+              className="w-full bg-green-500 text-white py-4 px-8 rounded-full hover:bg-green-600 transition duration-300 text-xl font-semibold"
+            >
               Proceed to Checkout
             </button>
           </div>

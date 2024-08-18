@@ -1,5 +1,5 @@
 interface CartItem {
-    id: number;
+    _id: string;
     cover: string;
     title: string;
     author: string;
@@ -18,9 +18,9 @@ interface CartItem {
     localStorage.setItem('cart', JSON.stringify(cart));
   };
   
-  export const removeFromCart = (id: number) => {
+  export const removeFromCart = (id: string) => {
     let cart = getCartItems();
-    cart = cart.filter(item => item.id !== id);
+    cart = cart.filter(item => item._id !== id);
     localStorage.setItem('cart', JSON.stringify(cart));
   };
   

@@ -18,8 +18,8 @@ const Footer: React.FC = () => {
             <h4 className="text-lg font-semibold mb-4 border-b border-purple-600 pb-2">Quick Links</h4>
             <ul className="text-sm space-y-2">
               <li><a href="/" className="hover:text-pink-300 transition duration-300 flex items-center"><FaBook className="mr-2" />Home</a></li>
-              <li><a href="/about" className="hover:text-pink-300 transition duration-300 flex items-center"><FaBook className="mr-2" />About</a></li>
-              <li><a href="/contact" className="hover:text-pink-300 transition duration-300 flex items-center"><FaBook className="mr-2" />Contact</a></li>
+              <li><a href="/" className="hover:text-pink-300 transition duration-300 flex items-center"><FaBook className="mr-2" />About</a></li>
+              <li><a href="/" className="hover:text-pink-300 transition duration-300 flex items-center"><FaBook className="mr-2" />Contact</a></li>
             </ul>
           </motion.div>
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.2 }}>
